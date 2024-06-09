@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;     
+}
+#cabecalho{
+    background-color: black;
+    margin-bottom: 10px;
+    position: sticky;
+    z-index: 1;
+    transform: scale(1.05);
+    
+
+}
+.logo{
+    width: 70px;
+    height: auto;
+    float: left;
+    
+}
+#cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    color: aliceblue;
+    list-style: none;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.5s linear;
+}
+header a {
+    color: rgb(92, 21, 21); 
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+body{
+    background-color: rgb(92, 21, 21); 
+}
+img{
+    width: 200px;
+    
+}
+p{
+    
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    font-size: larger;
+    
+}
+
+b{
+    
+    padding-left: 50px;
+   
+}
+.poseidon{
+    padding-left: 50px;
+    float: inline-start;
+}
+.all{
+    width: 500px;
+    align-items: center;
+    display: flex;
+}
+.demeter{
+    width: 100px;
+}
+.tithermes{
+    padding: inherit;
+    float: left;
+    width: 1400px;
+}
+#rodape {
+    color: aliceblue;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 400px;
+    
+    
+  }
+  
+  #rodape a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  #rodape a:hover {
+    text-decoration: underline;
+  }
+  
+
+

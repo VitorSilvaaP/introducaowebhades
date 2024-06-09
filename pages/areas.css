@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+#cabecalho{
+    background-color: black;
+    margin-bottom: 10px;
+    position: sticky;
+    z-index: 1;
+    transform: scale(1.05);
+    
+
+}
+.logo{
+    width: 70px;
+    height: auto;
+    float: left;
+    
+}
+#cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    color: aliceblue;
+    list-style: none;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.5s linear;
+}
+header a {
+    color: rgb(92, 21, 21); 
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+body{
+    background-color: rgb(92, 21, 21); 
+}
+.txt{
+    font-size: larger;
+    padding-left: 260px;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.tartarus{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.irmasf{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+.asfodelo{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+.hidra{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+
+}
+.coliseu{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+.teseu{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    height: 500px;
+}
+.temple{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+.dugeont{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+.lastarea{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+.hades{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+#rodape {
+    color: aliceblue;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 400px;
+    
+    
+  }
+  
+  #rodape a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  #rodape a:hover {
+    text-decoration: underline;
+  }
+
+
+
